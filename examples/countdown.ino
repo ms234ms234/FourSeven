@@ -1,18 +1,18 @@
 
-// Segments:			Pinout:
-//      ____		12 11 10  9  8  7
-//     / a /		 |  |  |  |  |  |
-//   f/___/b		------------------ this side is upper
-//   / g /			------------------ identifier ARK SR420561K on the lower
-// e/___/c			 |  |  |  |  |  |
-//    d				 1  2  3  4  5  6
+// Segments:     Pinout:
+//      ____      1  a  f  2  3  b
+//     / a /      |  |  |  |  |  |
+//   f/___/b     ------------------ this side is upper
+//   / g /       ------------------ identifier ARK SR420561K on the lower
+// e/___/c        |  |  |  |  |  |
+//    d	          e  d  h  c  g  4
 //
 // pin H corresponds to colon :
 //
-// pins 1 to 4 activate digit
+// pins 1 to 4 activate digits
 //
 // constructor takes pins A to H and 1 to 4:
-//     fS(a,b,c,d,e,f,h,1,2,3,4)
+//     fS(a,b,c,d,e,f,g,h,1,2,3,4)
 
 #include "fourSeven.h"
 
